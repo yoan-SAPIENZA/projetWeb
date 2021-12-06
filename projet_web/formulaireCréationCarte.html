@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="card2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <SCRIPT LANGUAGE="javascript">
+        function controle(form1) {
+        var test = document.form1.input.value;
+        alert("Vous avez tapé : " + test);
+        }
+        function afficher(form2) { 
+        var testin =document. form2.input.value; 
+        document.form2.output.value=testin 
+        } 
+        function controle(form3) {
+        var test = document.form1.input.value;
+        alert("Vous avez tapé : " + test);
+        }
+        function afficher(form4) { 
+        var testin =document. form2.input.value; 
+        document.form2.output.value=testin 
+        } 
+
+        // L'image img#image
+    var image = document.getElementById("image");
+     
+     // La fonction previewPicture
+     var previewPicture  = function (e) {
+ 
+         // e.files contient un objet FileList
+         const [picture] = e.files
+ 
+         // "picture" est un objet File
+         if (picture) {
+             // On change l'URL de l'image
+             image.src = URL.createObjectURL(picture)
+         }
+     } 
+    </SCRIPT>
+    
+    <FORM NAME="form1" id="white">
+        Nom:<INPUT TYPE="text" NAME="input" VALUE="">
+        <INPUT TYPE="button" NAME="bouton" VALUE="Contrôler" onClick="controle(form1)">
+    </FORM>
+
+    <FORM NAME="form3" id="white">
+        Prénom:<INPUT TYPE="text" NAME="input" VALUE="">
+        <INPUT TYPE="button" NAME="bouton" VALUE="Contrôler" onClick="controle(form3)">
+    </FORM>
+    <br>
+    <br>
+    <br>
+    <br>
+    <FORM NAME="form2" id="white"> 
+        <INPUT TYPE="text" NAME="input" VALUE=""> entrez Nom de l'arme et l'année<BR> 
+        <INPUT TYPE="button" NAME="bouton" VALUE="Afficher" onClick="afficher(form2)"><BR>
+        <INPUT TYPE="text" NAME="output" VALUE="">vérifiez
+    </FORM>
+    <br>
+    <input type="file" id="white" accept="image/png, image/jpeg, image/gif" onchange="loadFile(event)">
+    <img id="output"/>
+    <script>
+    var loadFile = function(event) {
+        var output = document.getElementById('output');
+        output.src = URL.createObjectURL(event.target.files[0]);
+    }
+    </script>
+    <br>
+    <br>
+    <FORM>
+        <TEXTAREA NAME="form3" ROWS=10px COLS=100px>
+            Entrez les Information à propos de l'arme
+        </TEXTAREA>
+    </FORM>
+    <div class="card">
+        <div class="card face">
+            <div class="card dos">
+                <FORM>
+                    <INPUT TYPE="text" NAME="output" size="10px 10px" VALUE="">vérifiez
+                    <TEXTAREA NAME="form3" ROWS=10px COLS=10px>
+                        Entrez les Information à propos de l'arme
+                    </TEXTAREA>
+                </FORM>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="texteHaut">Votre Carte :</div>
+        <div class="haut">
+            <div class="cardRot" id="rotating">
+                <div class="row">
+                    <img id="output"/>
+                        <FORM>
+                        <INPUT TYPE="text" NAME="output" size="10px 10px" VALUE="">vérifiez
+                        <TEXTAREA NAME="form3" ROWS=10px COLS=10px>
+                                Entrez les Informations à propos de l'arme
+                        </TEXTAREA>
+                    </FORM>
+                </div>
+            </div>
+        </div> 
+</body>
+</html>

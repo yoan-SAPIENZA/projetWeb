@@ -1,0 +1,123 @@
+.card{
+    height: 200px;
+    width: 130px;
+    overflow: visible;
+    border-radius: 30px;
+    perspective: 1000px;
+    transform: rotateX(50deg);
+    margin-left: 10px;
+    position:relative;
+   
+}
+
+#absolute{
+    position: absolute;
+}
+
+.info{
+    height: 60px;
+    width: 100px;
+    margin-left: 20px;
+    font-style: italic;
+    position: relative;
+    color: beige;
+    overflow: hidden;
+    font-size: 20px;
+    
+    
+
+}
+
+.card.face{
+    background-color: black;
+    position: relative;
+    transition: transform 1s;
+    overflow: hidden;
+    
+}
+.droite{
+    display: flex;
+    justify-content:center;
+
+}
+.haut
+{
+    position: absolute;
+    margin-top: 10px;
+
+}
+
+#pistolet{
+
+background-image:url(/Users/zappy/Desktop/Dossier_html/TP/TP1/3030597-guerrier-samourai-ou-ronin-avec-armure-et-contour-d-arme-vectoriel.png);}
+/*
+.card.face:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    
+  }
+  */
+
+
+  /*
+  .card.dos {
+    background:white;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+  }
+  */
+
+.card.face:hover,.card.dos:hover{
+    transition: transform 1s;
+    transform: translateZ(500px) rotateX(0deg) rotateY(180deg)  scale(2) ;
+    position: absolute;
+    z-index: 300;
+
+}
+
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.cardRot{
+    height: 500px;
+    width: 260px;
+    overflow: hidden;
+    border-radius: 30px;
+    margin-top: -500px;
+    margin-left: 1000px;
+    position:relative;
+    background-color: black;
+   
+}
+
+@keyframes rotating {
+    100% { -webkit-transform: rotateY(360deg); } 
+    }
+#rotating {
+        animation: rotating 8s linear infinite;
+      }
+.texteHaut{
+    margin-left: 1000px;
+    margin-top: -600px;
+    position: absolute;
+    font-style: italic;
+    font-size: 26px;
+    font-family: 'Brush Script MT', cursive;
+    color: white;
+
+}
+#white{
+    color: white;
+}
+
+body {
+    background:linear-gradient(45deg,beige,transparent 40%),
+    black repeating-linear-gradient(-45deg,rgba(201, 12, 21, 0.363), transparent 1%);
+    
+  }
