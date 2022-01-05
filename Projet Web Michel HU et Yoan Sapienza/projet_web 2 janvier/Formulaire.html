@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title> Sondage </title>
+        <meta charset="utf-8">
+	    <link href="Formulaire style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header id="entete">
+            <h1> Soutenez notre travail en remplissant ce sondage </h1>
+            <br>
+            <br>
+            <a href="page d'accueil 2.html" class="bouton">Retour à la page d'acceuil</a>
+        </header>
+        <main id="contenu">
+            <form onsubmit="ajouter(event);" class="form">
+                <div>
+                    <label for="nom">Nom : </label>
+                    <input type="text" id="nom" nom="nom" required>
+                    <label for="prénom">Prénom : </label>
+                    <input type="text" id="prénom" nom="prénom" required>
+                    <label for="email">E-mail : </label>
+                    <input type="email" id="email" nom="email" required>
+                </div>
+                <div>
+                    Age : 
+                    <select id="age" name="age" class="age">
+                        <option value="Moins de 18 ans"> Moins de 18 ans </option>
+                        <option value="Entre 18 ans et 30 ans"> Entre 18 ans et 30 ans </option>
+                        <option value="Entre 30 ans et 65 ans"> Entre 30 ans et 65 ans </option>
+                        <option value="Plus de 65 ans"> Plus de 65 ans </option>
+                    </select>
+                    <br>
+                    Genre
+                    <select id="genre" name="genre" class="genre">
+                        <option value="Homme"> Homme </option>
+                        <option value="Femme"> Femme </option>
+                    </select>
+                    <br>
+                    Etes-vous d'accord qu'aux Etats-Unis, il est possible d'acheter des armes?
+                    <select id="armes" name="armes" class="armes">
+                        <option value="Oui"> Oui </option>
+                        <option value="Non"> Non </option>
+                    </select>
+                </div>
+                <div>
+                    <label for="commentaire1">Pourquoi? </label><br>
+                    <textarea id="commentaire1" rows="10" cols="100"></textarea>
+                    <br>
+                    <button type="submit" class="btn">Envoyer</button>
+                    <br>
+                </div>
+                <br>
+                <br>
+                <div class="box">
+                    <table id="tableau" border="2">
+                        <thead>
+                            <tr>
+                                <th>Nom</th>
+                                <th>Prénom</th>
+                                <th>E-mail</th>
+                                <th>Age</th>
+                                <th>Genre</th>
+                                <th>Etes-vous d'accord qu'aux Etats-Unis, il est possible d'acheter des armes?</th>
+                                <th>Pourquoi?</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+
+            <script src="Formulaire.js"></script>
+
+        </main>
+        <footer id="baspage">
+            <br>
+            <br>
+            <a href="A propos.html" class="bouton">A propos</a>
+        </footer>
+    </body>
+</html>

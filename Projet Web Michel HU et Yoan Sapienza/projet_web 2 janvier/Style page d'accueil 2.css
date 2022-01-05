@@ -1,0 +1,377 @@
+/*création container card générale*/
+.card {
+    border-radius: 16px;
+    margin:13px;
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-size: cover;
+    }
+  
+  /*card et info avec background en fonction de chaque période*/
+
+  .card.Préhistoire,
+  .info.Préhistoire:before{
+    background-image: url(https://www.histoire-du-monde.fr/wp-content/uploads/2013/12/homme-moderne-histoire-740x472-700x441.jpg) ;
+  }
+
+  .card.Antiquité,
+  .info.Antiquité:before
+  {
+    background-image: url(https://farm1.staticflickr.com/982/28324640018_6df109eaf4_b.jpg);
+
+  }
+
+  .card.MoyenÂge,
+  .info.MoyenÂge:before
+  {
+    background-image: url(http://bcd.bzh/becedia/sites/default/files/medias/dossiers-thematiques/le-combat-des-trente/combat-des-trente_1.jpg);
+    
+  }
+
+  .card.TempsModernes,
+  .info.TempsModernes:before
+  {
+    background-image: url(https://soutien67.fr/histoire/pages/moderne/images/barthelemy01.jpg);
+  }
+
+  .card.Antiquité,
+  .info.Antiquité:before
+  {
+    background-image: url(https://farm1.staticflickr.com/982/28324640018_6df109eaf4_b.jpg);
+  }
+
+  .card.XIXème,
+  .info.XIXème:before
+  {
+    background-image: url(https://b4i2t3k3.rocketcdn.me/wp-content/uploads/2016/11/918-Replique-Pistolet-Francais-a-percussion-19eme-siecle.jpg);
+  }
+  .card.XX-XIXème,
+  .info.XX-XIXème:before
+  {
+    background-image: url(https://www.meta-defense.fr/wp-content/uploads/2020/02/railgun-fantaise.jpg);
+  }
+  .card.Préhistoire.Gourdin,
+  .info.Préhistoire.Gourdin:before{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWZfMvi5guEmtsuq4nePIRBDs9kqO-8Ca7fg&usqp=CAU) ;
+  }
+  .card.Préhistoire.Arc,
+  .info.Préhistoire.Arc:before{
+    background-image: url(  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXwd-B2_Jfn_vS2deJnPo1dEBNhjJR5YoKbQ&usqp=CAU    ) ;
+  }
+  .card.Préhistoire.Lance,
+  .info.Préhistoire.Lance:before{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL1aXbT5aBOJHdEIZa5ZYZMu44r10FOBs8yc6SkCgewuyTlRAhBZlfvOmQhTaF60Uddvw&usqp=CAU);
+  }
+
+  .card.Antiquité.Arbalète,
+  .info.Antiquité.Arbalète:before
+  {
+    background-image: url(  https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/The_uncivilized_races_of_men_in_all_countries_of_the_world%3B_being_a_comprehensive_account_of_their_manners_and_customs%2C_and_of_their_physical%2C_social%2C_mental%2C_moral_and_religious_characteristics._By_%2814765701494%29.jpg/520px-thumbnail.jpg);
+  }
+  .card.Antiquité.Kopis,
+  .info.Antiquité.Kopis:before
+  {
+    background-image: url(https://www.armurias.com/wp-content/uploads/2021/05/Kopis-cobra.jpg);
+  }
+  .card.Antiquité.Francisque,
+  .info.Antiquité.Francisque:before
+  {
+    background-image: url(https://www.larousse.fr/encyclopedie/data/images/1315728-Francisque_mérovingienne.jpg);
+  }
+
+  .card.MoyenÂge.Baliste,
+  .info.MoyenÂge.Baliste:before
+  {
+    background-image: url(https://lh6.googleusercontent.com/rOeq7S6N92DtJGlnOO_tB_wUzVwGAnR1-nKXvND804LaRRf50UUZo3KW-KrsB3NamfcneQFAyDF88LHi1_WmJafXpOtN70h-OLzTXTFOkKYRgfLkqs83QpbhgpdjVlvjzzDsVz1z);
+    
+  }
+  .card.MoyenÂge.FeuGrégeois,
+  .info.MoyenÂge.FeuGrégeois:before
+  {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRL1kiF4tN2a0pAHcxqjHnozGjJwkkLrsgPg&usqp=CAU);
+    
+  }
+  .card.MoyenÂge.CharÀFaux,
+  .info.MoyenÂge.CharÀFaux:before
+  {
+    background-image: url(https://3.bp.blogspot.com/-htn0O12D5-8/Vt7x4uANBcI/AAAAAAAAHnc/O0KMOjqinG0/s1600/char%2B%25C3%25A0%2Bfaux_1.jpg);
+    
+  }
+
+  .card.TempsModernes.Canon,
+  .info.TempsModernes.Canon:before
+  {
+    background-image: url(https://www.musee-armee.fr/uploads/tx_mdaobjects/11-502371-recadre.jpg);
+  }
+  
+  .card.TempsModernes.Armure,
+  .info.TempsModernes.Armure:before
+  {
+    background-image: url(https://www.musee-armee.fr/uploads/tx_mdaobjects/12-551369-recadre.jpg);
+  }
+  .card.TempsModernes.Katana,
+  .info.TempsModernes.Katana:before
+  {
+    background-image: url(https://www.kyotozenjapon.com/s/cc_images/teaserbox_2109810.png?t=1479440598);
+  }
+  
+  .card.XIXème.Gatlin,
+  .info.XIXème.Gatlin:before
+  {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Mitrailleuse_Gatling_APX1895_Paris_FRA_001.jpg/440px-Mitrailleuse_Gatling_APX1895_Paris_FRA_001.jpg);
+  }
+
+  .card.XIXème.Pistolet,
+  .info.XIXème.Pistolet:before
+  {
+    background-image: url(https://one.nbstatic.fr/uploaded/20170205/3676631/00001_pistolet-percussion-19-eme-siecle.JPG);
+  }
+
+  .card.XIXème.Fusil,
+  .info.XIXème.Fusil:before
+  {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjVdKFYuFTAbDOKa45VncOTf07reW7B_aFJQ&usqp=CAU);
+  }
+
+
+  .card.XX-XIXème.tank,
+  .info.XX-XIXème.tank:before
+  {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Leopard_2_A7.JPG/220px-Leopard_2_A7.JPG);
+  }
+  .card.XX-XIXème.Nucléaire,
+  .info.XX-XIXème.Nucléaire:before
+  {
+    background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/168A9/production/_110492329_gettyimages-840660082.jpg);
+  }
+  .card.XX-XIXème.CanonMagnétique,
+  .info.XX-XIXème.CanonMagnétique:before
+  {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f7/Coilgun_animation.gif);
+  }
+
+  /*création container info avec transition bas/haut */
+
+  .info {
+    border-radius: 16px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    transform: translateY(100%)
+      translateY(-50px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+  
+  
+
+  /**/
+  .info:before {
+    z-index: -1;
+    display: flex; position: absolute;
+    content: ' ';
+    width: 100%; height: 100%;
+    overflow: hidden;
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    transform: translateY(-100%)
+      translateY(88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  }
+
+
+
+  /* sûrment à effacer maintenant*/
+  .title {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 22px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  /* texte à l'intérieur de l'info*/
+  .description {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /**/
+  .card:hover .info,
+  .card:hover .info:before{
+    transform: translateY(0) translateZ(0);
+  }
+  /*zoom sur card et sur les deux container en bas "À propos" et "choix pas pays" */
+  .zoom:hover .card,
+  .zoom:hover .samouraï
+  {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  /*pour centrer les container card, et les aligner de gauche vers la droite*/
+  .row
+  {
+      width: 100%;
+      margin:0px;
+      display : flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+
+  /*centrer le texte*/
+  H1
+  {
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 10px;
+   
+  }
+  
+  /*background de la page entière*/
+  body {
+    background-color: beige;
+    background:linear-gradient(45deg,beige,transparent 40%),
+    black repeating-linear-gradient(-45deg,rgba(201, 12, 21, 0.363), transparent 1%);
+    min-height: 100vh;
+  }
+
+  /*pour l'affichage du titre avec caligraphie stylisé*/
+  header{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+    color: rgb(240, 231, 231);
+   
+  }
+
+  /*créer un nouveau container pour "À propos" et "choix par pays" */
+  .samouraï {
+    padding: 0 60px 24px;
+    font-size: 22px;
+    line-height: 7;
+    color: rgba(0, 0, 0, 0.87);
+    border-radius: 80px 20px;
+    margin:13px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    box-shadow: 0px 5px 10px 2px white;
+    overflow: hidden;
+    background-size: cover;
+    background-position-x: 18px;
+    background-color: rgb(161, 76, 76);
+    background-image: url(/Users/zappy/Desktop/Dossier_html/projet_web/3030597-guerrier-samourai-ou-ronin-avec-armure-et-contour-d-arme-vectoriel.png);
+  }
+
+  /* positionne et personnalise le texte d'A propos et de choix par pays */
+  .texte{
+    font-family: 'Brush Script MT', cursive;
+    margin:0;
+    font-size: 26px;
+    line-height: 8;
+    translate: -54px;
+    color: white;
+  }
+
+
+  /* positionne le texte de choix par pays en reprenant certains aspect du texte d'A propos juste au dessus */
+  .texte.ChoixParPays{
+    translate: -34px 50px;
+    color: black;
+    line-height: 1;
+  }
+  /* positionne le container À propos */
+  .row.Samouraï{
+    justify-content: flex-start;
+
+  }
+  /* reprends le container d'A propos, en modifiant certains éléments pour le mettre à droite, inverser la forme, le back... */
+  .samouraï.choixParPays{
+    padding: 0 60px 24px;
+    border-radius: 20px 80px;
+    margin-top: -140px;;
+    box-shadow: 0px 5px 10px 2px white;
+    background-position-x: 18px;
+    background-color: white;
+    }
+
+  /* positionne le container à droite */
+  .row.ChoixParPays{
+    justify-content: flex-end;
+
+  }
+  
+  .inscription {
+    padding: 0 60px 24px;
+    font-size: 22px;
+    line-height: 7;
+    color: rgba(0, 0, 0, 0.87);
+    border-radius: 80px 20px;
+    margin:13px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    box-shadow: 0px 5px 10px 2px white;
+    overflow: hidden;
+    background-size: cover;
+    background-position-x: 18px;
+    background-color: rgb(161, 76, 76);
+    background-image: url(/Users/zappy/Desktop/Dossier_html/projet_web/3030597-guerrier-samourai-ou-ronin-avec-armure-et-contour-d-arme-vectoriel.png);
+  }
+  .blockHaut{
+    top: 0;
+    position: fixed;
+    
+  }
+  #white{
+    color: white;
+  }
+  #fixed{
+    position: fixed;
+  }
+
+
+
+
+  .texte.Inscription{
+    translate: -30px;
+    color: black;
+    line-height: 1;
+  }
+  .texte.Création{
+    translate: -30px;
+    color: black;
+    line-height: 1;
+  }
+
+  /*cursor*/
+  
+  #préhistoire{
+    cursor: url(/Users/zappy/Downloads/un-modèle-miniature-de-hache-en-pierre-préhistorique-sujet-d-isolement-86425406.png),auto;
+  }
+  #antiquité{
+    cursor: url(/Users/zappy/Downloads/unnamed.png),auto;
+  }
+  #moyen_Âge{
+    cursor: url("/Users/zappy/Downloads/19470-src.png"),auto;
+  }
+  #temps_modernes{
+    cursor:url("/Users/zappy/Documents/cursor moyen Âge.png"),auto;
+  }
+  #XIXème_siècle{
+    cursor:url("/Users/zappy/Documents/cursor XIXème.png"),auto;
+  }
+  #XXIème_siècle{
+    cursor:url(/Users/zappy/Downloads/Unknown-2.png),auto;
+  }
+  
+  

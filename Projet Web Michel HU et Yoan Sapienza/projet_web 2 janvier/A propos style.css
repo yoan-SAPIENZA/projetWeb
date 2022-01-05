@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    text-align: center;
+    background:linear-gradient(45deg,beige,transparent 0%),
+    black repeating-linear-gradient(-45deg,rgba(201, 12, 21, 0.363), transparent 1%);
+    min-height: 100vh;
+}
+
+#entete h1{
+    font-size: 100px;
+    color: blanchedalmond;
+}
+
+#entete .bouton{
+    font-size: 25px;
+    text-decoration: none;
+    color: blanchedalmond;
+    border: blanchedalmond 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 40px 40px;
+}
+
+#contenu h1{
+    font-size: 25px;
+    color: blanchedalmond;
+    margin: 40px 40px;
+}
+
+#baspage h1{
+    font-size: 15px;
+    color: blanchedalmond;
+    margin: 40px 40px;
+}
